@@ -17,3 +17,7 @@ How to create a new GIT connection from our VS Code
 To create a new branch.
 
 7. git checkout -b Day2
+
+To publish the new branch
+
+8. git push --set-upstream origin Day2
