@@ -21,3 +21,9 @@ To create a new branch.
 To publish the new branch
 
 8. git push --set-upstream origin Day2
+
+Merge main into your branch (safer)
+
+9.  git checkout your-branch
+    git fetch origin
+    git merge origin/main
